@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family:'Poppins',sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body{
+    background:url(=.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.class1{
+    position: absolute;
+    top: 100%;
+    left:25%;
+}
+form{
+    font-size: 3em;
+    width: 200px;
+    position: absolute;
+    height: 300px;
+    left: 30%;
+    font-weight: 3.2em;
+}
+.class1 input{
+    width:600px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.class2{
+    position: absolute;
+    left: 30%;
+    top: 100%;
+
+}
+
+.main-btn3{
+    position: absolute;
+    top: 150%;
+    left:130% ;
+    background-color:rgb(83, 57, 23);
+    color: azure;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+.main-btn3:hover{
+    background-color: rgb(141, 137, 137);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+
+}
+header{
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    }
+    .logo{
+    text-decoration: none;
+    color: rgb(125, 80, 22);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    }
+    .navigation a{
+    text-decoration: none;
+    color: rgb(125, 80, 22);
+    font-size: 1em;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+    }
+    .navigation a:hover{
+    color: dodgerblue;
+    }
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: url(=.jpg)no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    
+   

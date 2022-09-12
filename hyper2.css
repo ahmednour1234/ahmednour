@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family:'Poppins',sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body{
+    background: url(3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    }
+.logo{
+    text-decoration: none;
+    color: rgb(99, 58, 9);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color:rgb(99, 58, 9);
+    font-size: 1em;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+}
+.navigation a:hover{
+    color: dodgerblue;
+}
+  
+.icon{
+    color: rgb(99, 58, 9);
+    font-size: 8em;
+    text-align: center;
+}
+.main {
+    width: 420px;
+    height: 520px;
+    background-color:rgba(0, 0, 0, 0.3);
+    color:#fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+form{
+    font-size: 3em;
+    width: 200px;
+    position: absolute;
+    height: 300px;
+    left: 30%;
+    font-weight: 3.2em;
+}
+.book input{
+    width: 110%;
+    height: 10%;
+    margin-bottom: 3%;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    margin: 1px;
+}
+p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.main-btn{
+    color:azure;
+    background-color: rgb(99, 58, 9);
+    transition: 0.7s ease;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.4em;
+    letter-spacing: 1px;
+    
+}
+.main-btn:hover{
+    background-color:black;
+    transform: scale(1.1);
+}
+.main-btn1{
+    color:azure;
+    background-color: rgb(99, 58, 9);
+    transition: 0.5s ease;
+    border-radius: 10px;
+    font-size: 0.4em;
+    text-decoration: none;
+    letter-spacing: 1px;
+   position: absolute;
+   left: 15%;
+   top:75%;
+   text-align: center;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    
+}
+.main-btn1:hover{
+    background-color: rgb(11, 26, 36);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}

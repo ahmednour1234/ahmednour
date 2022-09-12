@@ -1,0 +1,97 @@
+body
+{
+	background-image:url('go.JPG');
+	background-color:white;
+	height:800px;
+    width: 700px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	position:relative;
+	align-items:center;
+}
+
+
+
+	
+.name{
+	
+	position:absolute ;
+	color:white;
+	font-size:20px;
+	font: weight 10px;;
+	left:90%;
+	top:50%;
+
+}
+span{
+	
+	color:white;
+}
+
+.link{
+	position:absolute;
+	top:65%;
+    left:33%;
+	width:120px;
+	height:30px;
+	padding:7px;
+	background:#ea5c5a;
+	border:none;
+	outline:none;
+	color:white;
+	border-radius:10px;
+	font-size:25px;
+	/* font-style:italic; */
+	line-height:none;
+	text-decoration:none;
+	cursor:pointer;
+	text-align: center;
+}
+.link1{
+	position:absolute;
+    left:56%;
+    top:65%;
+	width:120px;
+	padding:7px;
+	background:#ea5c5a;
+	border:none;
+	outline:none;
+	color:white;
+	border-radius:10px;
+	font-size:25px;
+	/* font-style:italic; */
+	line-height:none;
+	text-decoration:none;
+	cursor:pointer;
+	text-align: center;
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	

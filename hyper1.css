@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family:'Poppins',sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body{
+    background: url(2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+table{
+    width: 100%;
+    position: absolute;
+   top: 7%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1.2em;
+    background-color: aliceblue;
+}
+th{
+    background-color:rgb(228, 211, 190);
+    color:rgb(99, 58, 9);
+    padding: 5px;
+    font-size: 1.2em;
+}
+header{
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    }
+    .logo{
+    text-decoration: none;
+    color: rgb(99, 58, 9);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    }
+    .navigation a{
+    text-decoration: none;
+    color: rgb(99, 58, 9);
+    font-size: 1em;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+    }
+    .navigation a:hover{
+    color: dodgerblue;
+    }
+.icon{
+    color: rgb(99, 58, 9);
+    font-size: 8em;
+    text-align: center;
+}

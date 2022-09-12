@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family:'Poppins',sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body{
+    background: url(i.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.icon{
+    color: rgba(59, 133, 64, 0.984);
+    font-size: 8em;
+    text-align: center;
+}
+.main {
+    width: 520px;
+    height: 620px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:#fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+form{
+    font-size: 3em;
+    width: 200px;
+    position: absolute;
+    height: 300px;
+    left: 30%;
+    font-weight: 3.2em;
+}
+.book input{
+    width: 110%;
+    height: 10%;
+    margin-bottom: 3%;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    margin: 1px;
+}
+p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.main-btn{
+    color:azure;
+    background-color: rgb(57, 99, 59);
+    transition: 0.7s ease;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.3em;
+    letter-spacing: 1px;
+    
+}
+.main-btn:hover{
+    background-color: rgb(42, 41, 41);
+    transform: scale(1.1);
+}
